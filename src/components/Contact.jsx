@@ -126,7 +126,9 @@ const Contact = () => {
               <SiGmail className="text-white " />
             </div>
           </div>
-          <div className="text-white">Logo</div>
+          <div className="text-white">
+            <img src="/logo.png" alt="" className="w-[100px] h-[100px]" />
+          </div>
 
           <div className=" text-white roboto flex flex-col gap-2">
             <p>Designed by</p>
