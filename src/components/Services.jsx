@@ -22,7 +22,9 @@ const Services = () => {
         <div className="md:w-[80%] w-[90%] mx-auto flex md:flex-row flex-col gap-6 justify-between">
           <div className="bg-[#191919] md:w-[22%] text-white h-[200px] shadow-sm shadow-black rounded-md flex flex-col justify-center items-center">
             <BiRadio className="text-5xl" />
-            <p className="text-white  roboto font-semibold roboto text-xl">Radio Host</p>
+            <p className="text-white  roboto font-semibold roboto text-xl">
+              Radio Host
+            </p>
             <p className="text-[#3C3D3C] montserrat ">Homeboyz Radio 3-7 pm </p>
           </div>
           <div className="bg-[#191919] md:w-[22%]  text-white  h-[200px] shadow-sm shadow-black rounded-md flex flex-col justify-center items-center">
@@ -32,8 +34,12 @@ const Services = () => {
           </div>
           <div className="bg-[#191919] md:w-[22%]  text-white  h-[200px] shadow-sm shadow-black rounded-md flex flex-col justify-center items-center">
             <SiEventbrite className="text-5xl" />
-            <p className="text-white  roboto font-semibold text-xl">Event Host</p>
-            <p className="text-[#3C3D3C]  montserrat">Social and Corporate Mc </p>
+            <p className="text-white  roboto font-semibold text-xl">
+              Event Host
+            </p>
+            <p className="text-[#3C3D3C]  montserrat">
+              Social and Corporate Mc{" "}
+            </p>
           </div>
           <div className="bg-[#191919] md:w-[22%]  text-white  h-[200px] shadow-sm shadow-black rounded-md flex flex-col justify-center items-center">
             <PiMicrophoneStageFill className="text-5xl" />
@@ -47,7 +53,7 @@ const Services = () => {
       <div className="bg-[#202020] py-8 min-h-[80vh]">
         <div className="flex flex-col gap-4 md:w-[80%] w-[90%] mx-auto">
           <div className="flex text-white text-xl  gap-4 ">
-            <p className="hover:underline duration-500 ease-in-out  transition-all cursor-pointer">
+            <p className="underline duration-500 ease-in-out  transition-all cursor-pointer">
               All
             </p>
             <p className="hover:underline duration-500 ease-in-out  transition-all cursor-pointer">
@@ -64,13 +70,25 @@ const Services = () => {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="w-[100%] h-[550px]">
               <img
-                src="/image.jpg"
+                src="/image2.jpg"
                 className="w-[100%] h-[100%] object-cover"
               />
             </div>
             <div className="w-[100%] h-[550px]">
               <img
-                src="/image.jpg"
+                src="/image4.jpg"
+                className="w-[100%] h-[100%] object-cover"
+              />
+            </div>
+            <div className="w-[100%] h-[550px]">
+              <img
+                src="/image3.jpg"
+                className="w-[100%] h-[100%] object-cover"
+              />
+            </div>
+            <div className="w-[100%] h-[550px]">
+              <img
+                src="/image1.jpg"
                 className="w-[100%] h-[100%] object-cover"
               />
             </div>

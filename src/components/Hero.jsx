@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      className="h-[100vh] md:pt-24 pt-20  text-white bg-fixed  font-bold   bg-[#202020]  md:w-[100%] "
+      className=" md:pt-24 pt-20 pb-8  text-white bg-fixed  font-bold   bg-[#202020]  md:w-[100%] "
       style={{
         backgroundImage: `url("/bg.png")`,
         backgroundSize: "cover",
@@ -21,7 +21,7 @@ const Hero = () => {
           <p>See some of our latest projects below.</p>
         </div>
         <div className="md:w-[46%] h-[90%]">
-          <img src="/image.jpg" className="h-[100%] w-[100%] object-cover" />
+          <img src="/image2.jpg" className="h-[100%] w-[100%] rounded-full object-cover" />
         </div>
       </div>
     </div>

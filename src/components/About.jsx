@@ -6,7 +6,7 @@ const About = () => {
       <div className="md:w-[80%] w-[90%] mx-auto md:h-[70%] p-4 flex  md:flex-row flex-col-reverse items-center   bg-[#191919] shadow-sm shadow-black rounded-md">
         <div className="md:w-[40%] h-[100%] z-0">
           <img
-            src="/image.jpg"
+            src="/image3.jpg"
             alt=""
             className="w-[100%] h-[100%] object-cover rounded-md"
           />
