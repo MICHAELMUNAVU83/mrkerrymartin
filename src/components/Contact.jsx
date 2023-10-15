@@ -62,7 +62,7 @@ const Contact = () => {
               <div className="w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
-                  placeholder="Your Name"
+                  placeholder="Your Email"
                 />
               </div>
             </div>
@@ -70,13 +70,13 @@ const Contact = () => {
               <div className="w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
-                  placeholder="Your Name"
+                  placeholder="Your Phone Number"
                 />
               </div>
               <div className="w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
-                  placeholder="Your Name"
+                  placeholder="Subject"
                 />
               </div>
             </div>
@@ -84,7 +84,7 @@ const Contact = () => {
               <div className="w-[100%] flex flex-col gap-1">
                 <textarea
                   className="w-[100%] border-[1px] h-[100px] bg-transparent focus:outline-none  p-2 border-[#666666]"
-                  placeholder="Your Name"
+                  placeholder="Message"
                 />
               </div>
             </div>
@@ -98,8 +98,8 @@ const Contact = () => {
       <div className="w-[100%] bg-[#111111]">
         <div className="w-[80%] flex justify-between items-center mx-auto py-6">
           <div className=" text-white flex flex-col gap-2">
-            <p>Juja Done</p>
-            <p className="text-[#3C3D3C]">Hello @gmail.com</p>
+            <p>Mr Kerry Martin </p>
+            <p className="text-[#3C3D3C]">mrkerrymartin@gmail.com</p>
             <div className="flex gap-2 items-center">
               <HiLocationMarker className="text-white " />
               <HiLocationMarker className="text-white " />
@@ -110,7 +110,30 @@ const Contact = () => {
           <div className="text-white">Logo</div>
 
           <div className=" text-white flex flex-col gap-2">
-            <p className="text-[#3C3D3C]">Juja Done</p>
+            <p>Designed by</p>
+            <p className="text-[#3C3D3C] flex gap-2 items-center">
+              <span>
+                <a
+                  href="https://michaelmunavu.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Michael Munavu
+                </a>
+              </span>
+              <span className="text-white">and</span>
+
+              <span>
+                {" "}
+                <a
+                  href="https://kiprotichkimutai.dev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Kimutai Kiprotich{" "}
+                </a>
+              </span>
+            </p>
           </div>
         </div>
       </div>
