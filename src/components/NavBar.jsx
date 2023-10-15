@@ -28,7 +28,7 @@ const NavBar = () => {
     >
       <div className="md:w-[90%] w-[80%] m-auto flex justify-between items-center text-white">
         <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl ">
-          Logo
+          <img src="/logo.png" className="w-[70px] h-[70px]  object-contain" />
         </h1>
 
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">

@@ -127,7 +127,11 @@ const Contact = () => {
             </div>
           </div>
           <div className="text-white">
-            <img src="/logo.png" alt="" className="w-[100px] h-[100px]" />
+            <img
+              src="/logo.png"
+              alt=""
+              className="w-[100px] object-contain h-[100px]"
+            />
           </div>
 
           <div className=" text-white roboto flex flex-col gap-2">
