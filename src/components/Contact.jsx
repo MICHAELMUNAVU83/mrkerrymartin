@@ -107,7 +107,7 @@ const Contact = () => {
               <HiLocationMarker className="text-white " />
             </div>
           </div>
-          <div>Logo</div>
+          <div className="text-white">Logo</div>
 
           <div className=" text-white flex flex-col gap-2">
             <p className="text-[#3C3D3C]">Juja Done</p>
