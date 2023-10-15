@@ -46,7 +46,7 @@ const Services = () => {
             <p className="text-white roboto font-semibold text-xl">
               Voice Over Artist
             </p>
-            <p className="text-[#3C3D3C]  montserrat">Homeboyz Radio 3-7 pm </p>
+            <p className="text-[#3C3D3C]  montserrat">Voice Over Work</p>
           </div>
         </div>
       </div>

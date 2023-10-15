@@ -11,21 +11,23 @@ const About = () => {
             className="w-[100%] h-[100%] object-cover rounded-md"
           />
         </div>
-        <div className="md:w-[60%] z-10 h-[80%] md:-ml-8  text-white   bg-[#202020] p-4 flex flex-col gap-4">
-          <p className="text-xl roboto font-bold">Who is Mr Kerry Martin</p>
+        <div className="md:w-[60%] z-10 h-[90%] md:-ml-8  text-white   bg-[#202020] p-4 flex flex-col gap-4">
+          <p className="text-xl playfair font-bold">Who is Mr Kerry Martin ?</p>
           <p className="montserrat">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magn aliqua. Ut enim
-            ad minim veniam, ommodo consequa. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia is be deserunt mollit anim
-            id est la borum.
+            Hey there, I'm Martin Kerry, the voice behind the stories on Radio
+            Homeboyz. I'm not just a radio presenter—I'm your companion on a
+            musical journey, blending beats and lyrics to create an experience
+            that transcends genres. Whether it's the rhythm that moves you or
+            the lyrics that touch your soul, join me on the airwaves for a
+            unique, soul-stirring adventure.
           </p>
           <p className="montserrat">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magn aliqua. Ut enim
-            ad minim veniam, ommodo consequa. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia is be deserunt mollit anim
-            id est laborum.
+            Beyond the radio waves, you can find me over at BoxPod, where I dive
+            into engaging conversations, extending the storytelling beyond the
+            realm of music. Proudly donning the hat of a Johnnie Walker brand
+            ambassador, I'm all about spreading good vibes and celebrating the
+            journey. Let's connect through the power of sound and stories.
+            Cheers to the adventure!
           </p>
         </div>
       </div>
