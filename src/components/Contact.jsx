@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <div
-        className="h-[30vh] flex text-white text-5xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
+        className="md:h-[30vh] h-[20vh]  playfair flex text-white md:text-7xl text-4xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
         style={{
           backgroundImage: `url("/bg.png")`,
           backgroundSize: "cover",
@@ -19,73 +19,80 @@ const Contact = () => {
         Reach Out To Me
       </div>
       <div className="w-[100%] bg-[#2B2B2B] ">
-        <div className="w-[80%] py-12 mx-auto flex justify-between items-start">
+        <div className="md:w-[80%] w-[90%] py-12 mx-auto grid md:grid-cols-6 gap-4 grid-cols-2">
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
               <BsInstagram className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Instagram</p>
-            <p>kerrymartin</p>
+            <p className="uppercase   montserrat font-semibold">Instagram</p>
+            <p className="roboto">kerrymartin</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
               <BsTwitter className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Twitter</p>
-            <p>kerry martin</p>
+            <p className="uppercase  montserrat font-semibold">Twitter</p>
+            <p className="roboto">kerry martin</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
               <BsYoutube className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Youtube</p>
-            <p>BoxPod</p>
+            <p className="uppercase  montserrat font-semibold">Youtube</p>
+            <p className="roboto">BoxPod</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
               <BiRadio className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Radio</p>
-            <p>Homeboyz radio</p>
+            <p className="uppercase  montserrat font-semibold">Radio</p>
+            <p className="roboto">Homeboyz radio</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
               <ImWhatsapp className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Whatsapp</p>
-            <p>+25474975297</p>
+            <p className="uppercase  montserrat font-semibold">Whatsapp</p>
+            <p className="roboto">+25474975297</p>
+          </div>
+          <div className="flex flex-col text-white justify-center items-center gap-2">
+            <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
+              <SiGmail className="text-4xl text-white" />
+            </div>
+            <p className="uppercase montserrat font-semibold">Gmail</p>
+            <p className="text-sm roboto">mrkerrymartin@gmail.com</p>
           </div>
         </div>
       </div>
 
       <div className="w-[100%] bg-[#2B2B2B] ">
-        <p className="text-5xl w-[80%] mx-auto font-semibold text-white ">
+        <p className="text-5xl playfair md:w-[80%] w-[90%] mx-auto font-semibold text-white ">
           Have A Question?
         </p>
-        <div className="w-[80%] py-12 mx-auto ">
+        <div className="md:w-[80%] roboto w-[90%] py-12 mx-auto ">
           <form className="w-[100%] flex flex-col gap-4">
-            <div className="flex justify-between w-[100%]">
-              <div className="w-[48%] flex flex-col gap-1">
+            <div className="flex md:flex-row flex-col gap-2 justify-between w-[100%]">
+              <div className="md:w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
                   placeholder="Your Name"
                 />
               </div>
-              <div className="w-[48%] flex flex-col gap-1">
+              <div className="md:w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
                   placeholder="Your Email"
                 />
               </div>
             </div>
-            <div className="flex justify-between w-[100%]">
-              <div className="w-[48%] flex flex-col gap-1">
+            <div className="flex md:flex-row flex-col gap-2 justify-between w-[100%]">
+              <div className="md:w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
                   placeholder="Your Phone Number"
                 />
               </div>
-              <div className="w-[48%] flex flex-col gap-1">
+              <div className="md:w-[48%] flex flex-col gap-1">
                 <input
                   className="w-[100%] border-[1px] bg-transparent focus:outline-none  p-2 border-[#666666]"
                   placeholder="Subject"
@@ -108,10 +115,10 @@ const Contact = () => {
       </div>
 
       <div className="w-[100%] bg-[#111111]">
-        <div className="w-[80%] flex justify-between items-center mx-auto py-6">
+        <div className="md:w-[80%] w-[90%] flex md:flex-row flex-col gap-4 justify-between md:items-center items-start mx-auto py-6">
           <div className=" text-white flex flex-col gap-2">
-            <p>Mr Kerry Martin </p>
-            <p className="text-[#3C3D3C]">mrkerrymartin@gmail.com</p>
+            <p classname="playfair">Mr Kerry Martin </p>
+            <p className="text-[#3C3D3C] roboto">mrkerrymartin@gmail.com</p>
             <div className="flex gap-2 items-center">
               <BsInstagram className="text-white " />
               <BsTwitter className="text-white " />
@@ -121,10 +128,10 @@ const Contact = () => {
           </div>
           <div className="text-white">Logo</div>
 
-          <div className=" text-white flex flex-col gap-2">
+          <div className=" text-white roboto flex flex-col gap-2">
             <p>Designed by</p>
             <p className="text-[#3C3D3C] flex gap-2 items-center">
-              <span>
+              <span className="montserrat">
                 <a
                   href="https://michaelmunavu.com"
                   rel="noreferrer"
@@ -135,7 +142,7 @@ const Contact = () => {
               </span>
               <span className="text-white">and</span>
 
-              <span>
+              <span className="montserrat">
                 {" "}
                 <a
                   href="https://kiprotichkimutai.dev"

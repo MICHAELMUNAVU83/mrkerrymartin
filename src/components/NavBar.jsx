@@ -8,7 +8,7 @@ const NavBar = () => {
   useEffect(() => {
     const changeBackground = () => {
       if (window.scrollY >= 80) {
-        setColor("black");
+        setColor("#202020");
         setTextColor("white");
       } else {
         setColor("transparent");
@@ -24,9 +24,9 @@ const NavBar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed z-50 left-0 top-0 w-full z-10 ease-in duration-300"
+      className="fixed z-50 left-0 top-0 w-full  ease-in duration-300"
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+      <div className="md:w-[90%] w-[80%] m-auto flex justify-between items-center text-white">
         <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl ">
           Logo
         </h1>

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@300;400;600&family=Quicksand:wght@400;500;600;700&family=Roboto:wght@500&display=swap");
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.quicksand {
+  font-family: "Quicksand", sans-serif;
+}
+
+.plusjakarta {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
