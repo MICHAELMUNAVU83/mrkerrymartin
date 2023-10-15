@@ -27,26 +27,42 @@ const NavBar = () => {
       className="fixed z-50 left-0 top-0 w-full montserrat  ease-in duration-300"
     >
       <div className="md:w-[90%] w-[80%] m-auto flex justify-between items-center text-white">
-        <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl ">
+        <a
+          href="#home"
+          style={{ color: `${textColor}` }}
+          className="font-bold text-4xl "
+        >
           <img src="/logo.png" className="w-[70px] h-[70px]  object-contain" />
-        </h1>
+        </a>
 
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li href="/" className="p-4">
+          <a
+            href="#home"
+            className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+          >
             Home
-          </li>
+          </a>
 
-          <li href="#about" className="p-4">
+          <a
+            href="#about"
+            className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+          >
             About
-          </li>
+          </a>
 
-          <li href="#services" className="p-4">
+          <a
+            href="#services"
+            className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+          >
             Services
-          </li>
+          </a>
 
-          <li href="#contact" className="p-4">
+          <a
+            href="#contact"
+            className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+          >
             Contact
-          </li>
+          </a>
         </ul>
 
         {/*Mobile button /> */}
@@ -69,26 +85,40 @@ const NavBar = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 right-0 left-0 bottom-0 flex justify-center items-center  w-full h-screen bg-black text-white duration-300 ease-in-out"
-              : "sm:hidden absolute top-0 right-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen bg-black text-white duration-300 ease-in-out"
+              ? "sm:hidden absolute top-0 right-0 left-0 bottom-0 flex justify-center items-center  w-full h-screen bg-[#202020]  text-white duration-300 ease-in-out"
+              : "sm:hidden absolute top-0 right-0 left-[-100%] bottom-0 flex justify-center items-center w-full h-screen bg-[#202020]  text-white duration-300 ease-in-out"
           }
         >
           <ul onClick={toggleNav}>
-            <li href="/" className="p-4">
-              Home
-            </li>
+            <div class="flex flex-col justify-center items-center gap-4">
+              <a
+                href="#home"
+                className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+              >
+                Home
+              </a>
 
-            <li href="#about" className="p-4">
-              About
-            </li>
+              <a
+                href="#about"
+                className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+              >
+                About
+              </a>
 
-            <li href="#services" className="p-4">
-              Services
-            </li>
+              <a
+                href="#services"
+                className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+              >
+                Services
+              </a>
 
-            <li href="#contact" className="p-4">
-              Contact
-            </li>
+              <a
+                href="#contact"
+                className="p-4 hover:scale-105 transition-all ease-in-out duration-500 "
+              >
+                Contact
+              </a>
+            </div>
           </ul>
         </div>
       </div>

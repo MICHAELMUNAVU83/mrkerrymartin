@@ -7,7 +7,7 @@ import { BiRadio } from "react-icons/bi";
 
 const Contact = () => {
   return (
-    <div>
+    <div id="contact">
       <div
         className="md:h-[30vh] h-[20vh]  playfair flex text-white md:text-7xl text-4xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
         style={{

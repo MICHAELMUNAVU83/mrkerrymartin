@@ -6,7 +6,7 @@ import { PiMicrophoneStageFill } from "react-icons/pi";
 
 const Services = () => {
   return (
-    <div>
+    <div id="services">
       {" "}
       <div
         className="md:h-[30vh] h-[20vh] playfair  flex text-white text-7xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
