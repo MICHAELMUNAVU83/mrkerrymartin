@@ -136,7 +136,7 @@ const Contact = () => {
 
           <div className=" text-white roboto flex flex-col gap-2">
             <p>Designed by</p>
-            <p className="text-[#3C3D3C] flex gap-2 items-center">
+            <p className="text-[#3C3D3C] text-xs md:text-base flex gap-2 items-center">
               <span className="montserrat">
                 <a
                   href="https://michaelmunavu.com"

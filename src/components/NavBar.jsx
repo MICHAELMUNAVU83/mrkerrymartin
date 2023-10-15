@@ -24,7 +24,7 @@ const NavBar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed z-50 left-0 top-0 w-full  ease-in duration-300"
+      className="fixed z-50 left-0 top-0 w-full montserrat  ease-in duration-300"
     >
       <div className="md:w-[90%] w-[80%] m-auto flex justify-between items-center text-white">
         <h1 style={{ color: `${textColor}` }} className="font-bold text-4xl ">
@@ -32,13 +32,21 @@ const NavBar = () => {
         </h1>
 
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
-          <li className="p-4">Home</li>
+          <li href="/" className="p-4">
+            Home
+          </li>
 
-          <li className="p-4">Gallery</li>
+          <li href="#about" className="p-4">
+            About
+          </li>
 
-          <li className="p-4">Work</li>
+          <li href="#services" className="p-4">
+            Services
+          </li>
 
-          <li className="p-4">Contact</li>
+          <li href="#contact" className="p-4">
+            Contact
+          </li>
         </ul>
 
         {/*Mobile button /> */}
@@ -66,13 +74,21 @@ const NavBar = () => {
           }
         >
           <ul onClick={toggleNav}>
-            <li>Home</li>
+            <li href="/" className="p-4">
+              Home
+            </li>
 
-            <li>Gallery</li>
+            <li href="#about" className="p-4">
+              About
+            </li>
 
-            <li>Work</li>
+            <li href="#services" className="p-4">
+              Services
+            </li>
 
-            <li>Contact</li>
+            <li href="#contact" className="p-4">
+              Contact
+            </li>
           </ul>
         </div>
       </div>
