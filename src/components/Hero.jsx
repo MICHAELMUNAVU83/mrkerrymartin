@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <div
-      className="h-[100vh] flex text-white bg-fixed  font-bold  justify-center items-center bg-[#202020] w-[100%] "
+      className="h-[100vh] pt-24 flex text-white bg-fixed  font-bold  justify-center items-center bg-[#202020] w-[100%] "
       style={{
         backgroundImage: `url("/bg.png")`,
         backgroundSize: "cover",
