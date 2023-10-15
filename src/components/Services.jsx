@@ -5,7 +5,7 @@ const Services = () => {
     <div>
       {" "}
       <div
-        className="h-[40vh] flex text-white text-5xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
+        className="h-[30vh] flex text-white text-5xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
         style={{
           backgroundImage: `url("/bg.png")`,
           backgroundSize: "cover",

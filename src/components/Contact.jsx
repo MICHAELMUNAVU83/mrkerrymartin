@@ -1,10 +1,15 @@
 import React from "react";
 import { HiLocationMarker } from "react-icons/hi";
+import { BsInstagram, BsTwitter, BsYoutube } from "react-icons/bs";
+import { ImWhatsapp } from "react-icons/im";
+import { SiGmail } from "react-icons/si";
+import { BiRadio } from "react-icons/bi";
+
 const Contact = () => {
   return (
     <div>
       <div
-        className="h-[40vh] flex text-white text-5xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
+        className="h-[30vh] flex text-white text-5xl font-bold  justify-center items-center bg-[#202020] w-[100%] "
         style={{
           backgroundImage: `url("/bg.png")`,
           backgroundSize: "cover",
@@ -17,31 +22,38 @@ const Contact = () => {
         <div className="w-[80%] py-12 mx-auto flex justify-between items-start">
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
-              <HiLocationMarker className="text-4xl text-white" />
+              <BsInstagram className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Address</p>
-            <p>Juja Road , Langata</p>
+            <p className="uppercase font-semibold">Instagram</p>
+            <p>kerrymartin</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
-              <HiLocationMarker className="text-4xl text-white" />
+              <BsTwitter className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Address</p>
-            <p>Juja Road , Langata</p>
+            <p className="uppercase font-semibold">Twitter</p>
+            <p>kerry martin</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
-              <HiLocationMarker className="text-4xl text-white" />
+              <BsYoutube className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Address</p>
-            <p>Juja Road , Langata</p>
+            <p className="uppercase font-semibold">Youtube</p>
+            <p>BoxPod</p>
           </div>
           <div className="flex flex-col text-white justify-center items-center gap-2">
             <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
-              <HiLocationMarker className="text-4xl text-white" />
+              <BiRadio className="text-4xl text-white" />
             </div>
-            <p className="uppercase font-semibold">Address</p>
-            <p>Juja Road , Langata</p>
+            <p className="uppercase font-semibold">Radio</p>
+            <p>Homeboyz radio</p>
+          </div>
+          <div className="flex flex-col text-white justify-center items-center gap-2">
+            <div className="w-[100px] h-[100px] rounded-full border-[1px] flex flex-col justify-center items-center border-white">
+              <ImWhatsapp className="text-4xl text-white" />
+            </div>
+            <p className="uppercase font-semibold">Whatsapp</p>
+            <p>+25474975297</p>
           </div>
         </div>
       </div>
@@ -101,10 +113,10 @@ const Contact = () => {
             <p>Mr Kerry Martin </p>
             <p className="text-[#3C3D3C]">mrkerrymartin@gmail.com</p>
             <div className="flex gap-2 items-center">
-              <HiLocationMarker className="text-white " />
-              <HiLocationMarker className="text-white " />
-              <HiLocationMarker className="text-white " />
-              <HiLocationMarker className="text-white " />
+              <BsInstagram className="text-white " />
+              <BsTwitter className="text-white " />
+              <ImWhatsapp className="text-white " />
+              <SiGmail className="text-white " />
             </div>
           </div>
           <div className="text-white">Logo</div>
